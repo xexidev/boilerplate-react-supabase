@@ -1,0 +1,14 @@
+.uesr-nav {
+  list-style: none;
+}
+.user-nav li {
+  display: inline;
+  margin: 0 5px;
+}
+.main-nav {
+  list-style: none;
+}
+.main-nav li {
+  display: inline;
+  margin: 0 5px;
+}

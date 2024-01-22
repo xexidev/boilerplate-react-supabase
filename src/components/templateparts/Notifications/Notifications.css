@@ -1,0 +1,23 @@
+.top-notification {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: top 500ms ease-in-out;
+  top: -100%;
+  background-color: #333333;
+  text-align: center;
+  padding: 20px;
+}
+.top-notification.error {
+  background-color: red;
+}
+.top-notification.visible {
+  transition: top 500ms ease-in-out;
+  top: 0%;
+}
+.top-notification .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
