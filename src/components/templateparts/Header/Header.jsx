@@ -15,7 +15,7 @@ export default function Header () {
             <h2>Hola, {userEmailFromLocal}</h2>
             <ul className='user-nav'>
               <li onClick={userLogout}>Logout</li>
-              <li><Link to={path.userAccount} title='My Account'>My Account</Link></li>
+              <li><Link to={path.user} title='My Account'>My Account</Link></li>
             </ul>
             </>
           : ''
